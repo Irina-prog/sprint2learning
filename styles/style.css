@@ -167,8 +167,7 @@
     flex-direction: column;
     height: 790px;
     padding-top: 100px;
-
-    
+    background-color: #F2F2F2;
 }
 .feinman__title {
     font-size: 120px;
@@ -178,12 +177,14 @@
     text-align: center;
     margin-top: 100px;
     margin: 0 auto;
+    z-index: 2;
 }
 .feinman__subtitle {
     font-size: 36px;
     font-weight: normal;
     line-height: 51px;
     margin-top: 70px;
+    z-index: 2;
 }
 .feinman__link {
     font-size: 36px;
@@ -195,11 +196,10 @@
     position: absolute;
     text-decoration: none;
     color: #000;}
-.feinman-img{
+.feinman__image{
     width: 867px;
     height: 637px;
     position: absolute;
-    z-index: -2;
     left: 0;
     bottom: 0;    
 }
