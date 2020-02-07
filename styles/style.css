@@ -50,6 +50,13 @@
     font-size: 18px;
     line-height: 25px;
 }
+.link {
+    transition: color 2s linear 0s;
+}
+.link:hover {
+    opacity: 0.5;
+    transition: color 2s linear 0s;
+}
 .header__subtitle-link {
     color:  #2F80ED;
     text-decoration: none;
@@ -70,6 +77,7 @@
     background-color: #2F80ED;
     position: absolute;
     right: 0;
+    transform: rotate(-15deg);
 }
 .description {
     display: flex;
