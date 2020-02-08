@@ -89,7 +89,7 @@
     transform: rotate(-15deg);
     animation: rotation 20s linear infinite
 }
-.description {
+.description, .oakley {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,7 +246,7 @@
     align-items: center;
     flex-direction: column;
     height: 790px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     background-color: #F2F2F2;
     background-image: url(../images/feinman.png);
     background-position: left 0 bottom 0;
@@ -369,4 +369,9 @@
 .footer__icon {
     width:16px;
     height:16px;
+}
+.oakley {
+    background-color: #F2F2F2;
+    padding-top: 60px;
+    margin-bottom: -20px;
 }
