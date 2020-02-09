@@ -362,7 +362,7 @@
     margin-top: 18px;
     align-self: end;
 }
-.footer__columns-info, .footer__columns-social {
+.footer__columns-info, .footer__columns-social, .resources__logo-zone {
     list-style-type: none;
     padding-inline-start: 0;
     margin-block-start: 0;
