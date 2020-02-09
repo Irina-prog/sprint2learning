@@ -428,9 +428,10 @@
 .khan__book-pic {
     width: 608px;
     height: 620px;
+    background-image: url(/images/book.jpg);
     margin-right: 20px;
-    /* object-fit: cover; */
-    float: left;
+    background-position: left top;
+    background-size: cover;
 }
 .khan__buy-link{
     line-height: 42px;
