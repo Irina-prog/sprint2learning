@@ -150,6 +150,7 @@
     margin-bottom: 20px;
     text-align: center;
     z-index: 10;
+    transform: rotate(0);
 }
 .section-title__technics {
     line-height: 1.15;
@@ -161,6 +162,7 @@
     margin: 0 auto;
     text-align: center;
     z-index: 10;
+    transform: rotate(0);
 }
 .technics{
     width: 80%;
@@ -315,9 +317,9 @@
 .kaufman__triangle {
     position: absolute;
     right: -210px;
-    z-index: 1;
+    z-index: 0;
     top: 0;
-    animation: rotation_triangle 20s linear infinite
+    animation: rotation_triangle 20s linear infinite;
 }
 .footer {
     background-color: #1f1f1f;
