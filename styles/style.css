@@ -97,7 +97,7 @@
     align-items: center;
     justify-content: center;
 }
-.description__two-columns {
+.two-columns {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
@@ -150,7 +150,7 @@
     z-index: 10;
     transform: rotate(0);
 }
-.section-title__technics {
+.section-title_theme_technics {
     line-height: 1.15;
 }
 .section-subtitle {
@@ -209,7 +209,7 @@
     justify-content: center;
     
 }
-.video-iframes {
+.video__iframes {
     display: grid;
     transform: translate(0,50px);
     
