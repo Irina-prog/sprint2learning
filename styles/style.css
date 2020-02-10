@@ -3,7 +3,7 @@
       transform: rotate(-15deg);
     }
     to {
-       transform: rotate(15deg)
+       transform: rotate(344deg)
     }
 }
 @keyframes rotation_triangle { 
