@@ -334,7 +334,6 @@
     padding-bottom: 40px;
     padding-top: 60px;
     width: 90%;
- 
 }
 .column-copyright {
     flex-basis: 711px;
@@ -359,7 +358,8 @@
     margin-top: 18px;
     align-self: end;
 }
-.column-info, .column-social, .resources__logo-zone {
+
+.footer__column, .resources__logo-zone {
     list-style-type: none;
     padding-inline-start: 0;
     margin-block-start: 0;
