@@ -366,18 +366,18 @@
     margin-block-end: 0;
 }
 
-.footer__heading, .footer__link {
+.footer__column-heading, .footer__column-link {
     line-height: 30px;
     font-size: 18px;
 }
 
-.footer__heading {
+.footer__column-heading {
     font-weight: bold;
     margin-block-start: 0;
     margin-block-end: 20px;
 }
  
-.footer__link {
+.footer__column-link {
     text-decoration: none;
     color: #F2F2F2;
 }
