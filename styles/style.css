@@ -336,14 +336,14 @@
     width: 90%;
  
 }
-.footer__columns-copyright {
+.column-copyright {
     flex-basis: 711px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
-.footer__logo {
+.place_footer {
     width:183px;
     height: 35px;
 
@@ -359,7 +359,7 @@
     margin-top: 18px;
     align-self: end;
 }
-.footer__columns-info, .footer__columns-social, .resources__logo-zone {
+.column-info, .column-social, .resources__logo-zone {
     list-style-type: none;
     padding-inline-start: 0;
     margin-block-start: 0;
