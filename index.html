@@ -35,7 +35,7 @@
                  <!-- Нужно исправить:
                           Ошибка прошлого спринта: По брифу two-columns это блок и от него образованы вложенные элементы.
                   -->
-                    <div class="description__brief">Главные проблемы в обучении</div>
+                    <h2 class="description__brief">Главные проблемы в обучении</h2>
                     <!-- Нужно исправить:
                           Ошибка прошлого спринта: 
                           Элемент <div> здесь - не лучшее решение. div, обычно, является контейнером, в котором мы располагаем данные. Он может содержать другие блочные элементы, в основном мы используем такой контейнер для последующей стилизации содержимого, т.к. сам по себе div не несет какого-либо смысла, а является обычным блочным элементом (Согласно старой контентной модели) или же flow-content (Согласно HTML5-content model). Более подробно с контентными моделями HTML5 можно ознакомиться здесь: https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html . Для элементов, содержащих текстовый контент используйте h1-h6/p
@@ -57,7 +57,7 @@
                 </div>
             </section>
             <section class="technics">
-                <p class="section-title section-title__technics">Техники обучения</p>
+                <h2 class="section-title section-title__technics">Техники обучения</h2>
                 <!-- Нужно исправить:
                       Это не просто текст, это заголовок.
                       По брифу здесь класса элемента. К тому же, этот класс образован не по БЭМ. У одного и того же тега не может быть класс блока и элемента этого же блока. Элемент всегда вложен в блок. 
@@ -104,28 +104,27 @@
                 <!-- Нужно исправить:
                          По брифу, злесь должен быть класс элемента, не блока. 
                   -->
-                    <div class="video-iframe">
-                        <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0"
+                    
+                        <iframe class="video-iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                    </div>
+                    
                     <!-- Нужно исправить: 
                         Див является лишней обёрткой, класс можно задать сразу iframe.
                         Класс не по брифу.         
                     -->
-                    <div class="video-iframe">
-                        <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0"
+                    
+                        <iframe class="video-iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                    </div>
-                </div>
+                    
             </section>
             <section class="oakley">
                 <div class="description__two-columns">
                 <!-- Нужно исправить: 
                         Из-за ошибки в прошлом спринте и в этом блоке неправильные классы.         
                   -->
-                    <div class="description__brief">История Барбары Оакли.</div>
+                    <p class="description__brief">История Барбары Оакли.</p>
                     <!-- Нужно исправить: 
                             Текстовый контент должен быть оформлен заголовоком или параграфом, не дивом.        
                     -->
@@ -197,11 +196,11 @@
                 <div class="khan__container">
                     <p class="khan__author">Салман Хан</p>
                     <p class="khan__title">Весь мир — школа</p>
-                    <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+                    <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
                         всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так
                         учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и
                         жизни.
-                    </p>
+                    </blockquote>
                      <!-- Можно лучше:
                            Для цитат есть замечательный тег blockquote   https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote                  
                         -->
