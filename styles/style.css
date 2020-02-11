@@ -435,20 +435,22 @@
 .khan__book-container {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .khan__book-pic {
     width: 608px;
     height: 620px;
-    background-image: url(../images/book.jpg);
     margin-right: 20px;
-    background-position: left top;
-    background-size: cover;
+
+    object-fit: cover;
+    height: 100%;
 }
 .khan__buy-link{
     line-height: 42px;
     font-size: 30px;
     text-decoration: none;
     color: #2F80ED;
+    align-self: flex-start;
 }
 .resources {
     margin-top: 100px;
