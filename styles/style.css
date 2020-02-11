@@ -217,11 +217,13 @@
     grid-column-gap: 20px;
     position: relative;
     margin: 0 auto;
+   
     
 }
 .video-iframe {
     width: 515px;
     height: 316px;
+    border:0;
 }
 
 .table {
@@ -435,15 +437,18 @@
 .khan__book-container {
     display: flex;
     flex-direction: row;
+    
+}
+.book-container_pic-wrap {
+    width: 608px;
+    height: 620px;
     overflow: hidden;
 }
 .khan__book-pic {
-    width: 608px;
-    height: 620px;
     margin-right: 20px;
-
-    object-fit: cover;
-    height: 100%;
+    object-fit: contain;
+    object-position: 0%;
+    
 }
 .khan__buy-link{
     line-height: 42px;
