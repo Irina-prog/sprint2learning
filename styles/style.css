@@ -440,15 +440,15 @@
     
 }
 .book-container_pic-wrap {
-    width: 608px;
-    height: 620px;
-    overflow: hidden;
+    width: 620px;
+    height: 608px;
+    margin-right: 20px;
 }
 .khan__book-pic {
-    margin-right: 20px;
-    object-fit: contain;
-    object-position: 0%;
-    
+    width:620px;
+    height: auto;
+    object-fit: cover;
+    object-position: left top;
 }
 .khan__buy-link{
     line-height: 42px;
