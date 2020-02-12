@@ -339,7 +339,7 @@
     padding-top: 60px;
     width: 90%;
 }
-.column-copyright {
+.footer__column_content_copyright {
     flex-basis: 711px;
     display: flex;
     flex-direction: column;
