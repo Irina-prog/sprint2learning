@@ -24,7 +24,7 @@
         <main class="content">
             <section class="description">
                 <div class="two-columns">
-                 <!-- Нужно исправить:
+                 <!-- +Нужно исправить:
                           Ошибка прошлого спринта: По брифу two-columns это блок и от него образованы вложенные элементы.
                           
                           2 итерация: вложеннеы элементы должны быть не от description, а от two-columns
@@ -50,40 +50,41 @@
                 <h2 class="section-title section-title_theme_technics">Техники обучения</h2>
                 <p class="section-subtitle">Пять практик от Барбары Оакли</p>
                 <div class="cards">
-                    <div class="cards-item">
+                    <div class="cards__item">
                     <!-- Нужно исправить:
-                            На прошлой итерации не была замечаена ошибка. cards-item и вложеные элементы по брифу это не классы блоков, а классы элеменнтов. __item, __image и тд 
+                            На прошлой итерации не была замечаена ошибка. cards-item и вложеные элементы по брифу это не классы блоков, 
+                            а классы элеменнтов. __item, __image и тд 
                             
                             Текстовый контент тегов __title и __description тоже должен быть завернуть не в див, а в параграф или заголовок. 
                   -->
-                        <img class="cards-image" src="images/attention.png" alt="В руках книга.">
-                        <div class="cards-title"> Два вида внимания</div>
-                        <div class="cards-description">Глубокие знания возникают, если чередовать сфокусированное и
-                            рассеянное мышление.</div>
+                        <img class="cards__image" src="images/attention.png" alt="В руках книга.">
+                        <h3 class="cards__title"> Два вида внимания</h3>
+                        <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и
+                            рассеянное мышление.</p>
                     </div>
-                    <div class="cards-item">
-                        <img class="cards-image" src="images/recall.png" alt="Скульптура мальчика задумчивого.">
-                        <div class="cards-title"> Recall</div>
-                        <div class="cards-description">Вспоминайте изученное — это позволит соединить разрозненные
-                            порции памяти.</div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="images/recall.png" alt="Скульптура мальчика задумчивого.">
+                        <h3 class="cards__title"> Recall</h3>
+                        <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные
+                            порции памяти.</p>
                     </div>
-                    <div class="cards-item">
-                        <img class="cards-image" src="images/interliving.png" alt="Архитектурное сооружение формы треугольника.">
-                        <div class="cards-title">Интерливинг</div>
-                        <div class="cards-description">Изучайте несколько навыков одновременно, они обогащают друг
-                            друга.</div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="images/interliving.png" alt="Архитектурное сооружение формы треугольника.">
+                        <h3 class="cards__title">Интерливинг</h3>
+                        <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг
+                            друга.</p>
                     </div>
-                    <div class="cards-item">
-                        <img class="cards-image" src="images/question.png" alt="Человек окружен белым зданием с окнами">
-                        <div class="cards-title">Вопросы</div>
-                        <div class="cards-description">Слушая преподавателя, придумывайте хороший вопрос, который вас
-                            действительно волнует</div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="images/question.png" alt="Человек окружен белым зданием с окнами">
+                        <h3 class="cards__title">Вопросы</h3>
+                        <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас
+                            действительно волнует</p>
                     </div>
-                    <div class="cards-item">
-                        <img class="cards-image" src="images/competence.png" alt="Рука поднята вверх, на ней стопка книг">
-                        <div class="cards-title">Иллюзия компетентности</div>
-                        <div class="cards-description">Повторите про себя, запишите, расскажите другу: вам только
-                            кажется, что вы владеете новой темой.</div>
+                    <div class="cards__item">
+                        <img class="cards__image" src="images/competence.png" alt="Рука со стопкой книг">
+                        <h3 class="cards__title">Иллюзия компетентности</h3>
+                        <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только
+                            кажется, что вы владеете новой темой.</p>
                     </div>
                 </div>
 
@@ -92,7 +93,7 @@
                 <h2 class="section-title">Видео нa TED</h2>
                 <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
                 <div class="video__iframes">
-                        <iframe class="video-iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" 
+                        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     
@@ -103,7 +104,7 @@
                         2 итерация: у айфрейма должен быть класс элемента __iframe, не блока.               
                     -->
                     
-                        <iframe class="video-iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" 
+                        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                 </div>

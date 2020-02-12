@@ -175,7 +175,7 @@
     width: 920px;
     
 }
-.cards-item {
+.cards__item {
     display: flex;
     
     width: 240px;
@@ -183,24 +183,25 @@
     
 }
 
-.cards-image {
+.cards__image {
     width: 160px;
     height: 160px;
     margin:60px 40px 43px 40px;
     border-radius: 80px ;
     
 }
-.cards-title {
+.cards__title {
     font-size: 24px;
     line-height: 1.15;
     font-weight: bold;
-    margin-bottom: 16px;
+    margin: 0 0 16px;
     text-align: center;
 } 
-.cards-description {
+.cards__description {
     line-height: 23px;
     font-size: 18px;
     text-align: center;
+    margin: 0;
 }
 .video {
     margin-top: 100px;
@@ -220,7 +221,7 @@
    
     
 }
-.video-iframe {
+.video__iframe {
     width: 515px;
     height: 316px;
     border:0;
