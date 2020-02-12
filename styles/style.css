@@ -440,16 +440,13 @@
     flex-direction: row;
     
 }
-.book-container_pic-wrap {
+
+.khan__book-pic {
     width: 620px;
     height: 608px;
-    margin-right: 20px;
-}
-.khan__book-pic {
-    width:620px;
-    height: auto;
     object-fit: cover;
     object-position: left top;
+    margin-right: 20px;
 }
 .khan__buy-link{
     line-height: 42px;
