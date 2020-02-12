@@ -346,10 +346,9 @@
     justify-content: space-between;
 
 }
-.place_footer {
+.logo_place_footer {
     width:183px;
     height: 35px;
-
     position: relative;
     top:0;
     left:0;
@@ -363,9 +362,6 @@
     align-self: end;
 }
 
-.resources__logo-zone {
-   
-}
 
 .footer__column-heading, .footer__column-link {
     line-height: 30px;
