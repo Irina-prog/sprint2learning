@@ -105,7 +105,7 @@
     width: 80%;
 
 }
-.description__brief {
+.two-columns__brief {
     line-height: 1.2;
     width: 175px;
     font-size: 18px;
@@ -114,23 +114,23 @@
     margin-top: 0;
     margin-left: 0;
 }
-.description__main-text{
+.two-columns__main-text{
     width: 80%;
     min-width: 784px;
 
 }
-.description__paragraph {
+.two-columns__paragraph {
     line-height: 34px;
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.description__paragraph:last-child {
+.two-columns__paragraph:last-child {
     margin-bottom: 0;
 }
 
-.description__accent {
+.two-columns__accent {
     font-weight: bold;
 }
 
